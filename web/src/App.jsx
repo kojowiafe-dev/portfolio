@@ -12,9 +12,9 @@ function App() {
           <div className="">Header</div>
           <div className="">Header</div>
         </div>
-        <div className="bg-yellow-300 grid grid-cols-2 pt-24 h-screen">
-          <div className="bg-blue-950 col-span-1">Bio</div>
-          <div className="bg-blue-500 col-span-1">Image</div>
+        <div className="bg-black grid grid-cols-2 pt-24 h-screen items-center justify-center">
+          <div className="bg-blue-950 col-span-1 h-full">Bio</div>
+          <div className="bg-blue-500 col-span-1 h-full">Image</div>
         </div>
       </div>
 
