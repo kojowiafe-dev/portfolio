@@ -42,8 +42,16 @@ export const AnimatedThemeToggler = ({ className }: props) => {
         duration: 700,
         easing: "ease-in-out",
         pseudoElement: "::view-transition-new(root)",
-      },
+      }
     );
+    if (isDarkMode) {
+      document.documentElement.classList.add("dark");
+      localStorage.setItem("theme", "dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+      localStorage.setItem("theme", "light");
+    }
+    console.log("Dark mode:", isDarkMode);
   };
   return (
     <button ref={buttonRef} onClick={changeTheme} className={cn(className)}>
