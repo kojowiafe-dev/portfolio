@@ -7,12 +7,12 @@ function App() {
       {/* <Home /> */}
 
       <div className="h-full">
-        <div className="p-8 flex items-center justify-center bg-transparent fixed w-full top-0 left-0 z-50 backdrop-blur-md shadow-md transition-colors duration-300 text-white space-x-20 text-2xl border-b border-gray-700">
-          <div className="">Header</div>
-          <div className="">Header</div>
-          <div className="">Header</div>
+        <div className="p-8 flex items-center justify-center bg-transparent fixed w-full top-0 left-0 z-50 backdrop-blur-md shadow-md transition-colors duration-300 text-white space-x-8 md:space-x-20 md:text-2xl text-xl border-b border-gray-700">
+          <div className="">Profile</div>
+          <div className="">About</div>
+          <div className="">Contact</div>
         </div>
-        <div className="bg-black grid grid-cols-2 pt-24 h-screen items-center justify-center">
+        <div className="bg-black grid grid-cols-1 md:grid-cols-2 pt-24 h-screen items-center justify-center">
           <div className="bg-black col-span-1 h-full flex items-center justify-center">
             <TerminalDemo />
           </div>
