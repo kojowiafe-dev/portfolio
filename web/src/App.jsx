@@ -4,6 +4,7 @@ import { AnimatedGridPattern } from "./components/magicui/animated-grid-pattern"
 // import { BentoGrid } from "./components/magicui/bento-grid"
 import { Dock, DockIcon } from "./components/magicui/dock";
 import ThemeToggle from "./components/ThemeToggle";
+import DockTheme from "./components/DockTheme";
 import { Home, Settings, Search } from "lucide-react";
 import {
   FaGithub,
@@ -45,6 +46,8 @@ function App() {
                 </DockIcon>
               </Dock>
             </div>
+            {/* <DockTheme /> */}
+
             {/* <TerminalDemo /> */}
             {/* <AnimatedGridPattern /> */}
           </div>
